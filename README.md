@@ -116,14 +116,20 @@ o	Jika kedua kondisi tersebut terpenuhi, saldo akan dikurangi dengan jumlah yang
 4.	Metode menu
 
 o	Metode ini menjalankan loop yang terus menampilkan menu hingga pengguna memilih untuk keluar.
+
 o	Pengguna dapat memilih antara tiga opsi:
+
  	Tampilkan Saldo: Memanggil metode tampilkan_saldo.
+
  	Tarik Uang: Meminta pengguna untuk memasukkan jumlah yang ingin ditarik dan memanggil metode tarik_uang.
+ 
  	Keluar: Menghentikan loop dan menampilkan pesan perpisahan.
+
 o	Jika pengguna memasukkan pilihan yang tidak valid, program akan meminta pengguna untuk mencoba lagi.
 
 Penggunaan Objek
 
 •	Di bagian bawah program, objek dari kelas ATM dibuat dan fungsi menu dijalankan untuk memulai interaksi dengan pengguna.
+
 •	Ini akan memanggil metode menu, yang akan terus menampilkan opsi hingga pengguna memilih untuk keluar.
 
