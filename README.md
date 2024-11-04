@@ -90,29 +90,36 @@ Kelas ATM merupakan inti dari program ini. Kelas ini berfungsi untuk mengelola s
 1.	Metode __init__
 
 o	Fungsi ini adalah konstruktor kelas yang dipanggil saat objek dari kelas ATM dibuat.
+
 o	Dalam fungsi ini, saldo awal diinisialisasi sebesar Rp 1.000.000.
 
 2.	Metode tampilkan_saldo
 
 o	Metode ini bertanggung jawab untuk menampilkan saldo pengguna saat ini.
+
 o	Ketika metode ini dipanggil, ia mencetak saldo ke layar.
 
 3.	Metode tarik_uang
 
 o	Metode ini digunakan untuk menarik uang dari saldo pengguna.
+
 o	Ia menerima satu parameter jumlah, yang merupakan jumlah uang yang ingin ditarik.
+
 o	Metode ini melakukan beberapa pemeriksaan:
-	Memastikan jumlah yang diminta lebih besar dari 0.
-	Memastikan saldo cukup untuk menarik jumlah yang diminta.
+
+ 	Memastikan jumlah yang diminta lebih besar dari 0.
+
+ 	Memastikan saldo cukup untuk menarik jumlah yang diminta.
+
 o	Jika kedua kondisi tersebut terpenuhi, saldo akan dikurangi dengan jumlah yang ditarik, dan saldo baru akan ditampilkan.
 
 4.	Metode menu
 
 o	Metode ini menjalankan loop yang terus menampilkan menu hingga pengguna memilih untuk keluar.
 o	Pengguna dapat memilih antara tiga opsi:
-	Tampilkan Saldo: Memanggil metode tampilkan_saldo.
-	Tarik Uang: Meminta pengguna untuk memasukkan jumlah yang ingin ditarik dan memanggil metode tarik_uang.
-	Keluar: Menghentikan loop dan menampilkan pesan perpisahan.
+ 	Tampilkan Saldo: Memanggil metode tampilkan_saldo.
+ 	Tarik Uang: Meminta pengguna untuk memasukkan jumlah yang ingin ditarik dan memanggil metode tarik_uang.
+ 	Keluar: Menghentikan loop dan menampilkan pesan perpisahan.
 o	Jika pengguna memasukkan pilihan yang tidak valid, program akan meminta pengguna untuk mencoba lagi.
 
 Penggunaan Objek
