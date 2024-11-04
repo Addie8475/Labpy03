@@ -127,7 +127,7 @@ o	Pengguna dapat memilih antara tiga opsi:
 
 o	Jika pengguna memasukkan pilihan yang tidak valid, program akan meminta pengguna untuk mencoba lagi.
 
-Penggunaan Objek
+**Penggunaan Objek**
 
 •	Di bagian bawah program, objek dari kelas ATM dibuat dan fungsi menu dijalankan untuk memulai interaksi dengan pengguna.
 
